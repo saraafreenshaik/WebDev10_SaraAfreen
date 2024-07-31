@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #150248;
+}
+.profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-container h2 {
+    text-align: center;
+    color: #110a6d;
+}
+.profile-container label, .profile-container input, .profile-container select {
+    display: block;
+    margin-bottom: 10px;
+}
+.profile-container input[type="text"], .profile-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #767575;
+    border-radius: 5px;
+}
+.profile-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.profile-container button {
+    width: 100%;
+    padding: 10px;
+    background: #042447;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profile-container button:hover {
+    background: #0259b7;
+}
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#password-strength {
+    font-weight: bold;
+}
+#password-mismatch {
+    color: red;
+}
