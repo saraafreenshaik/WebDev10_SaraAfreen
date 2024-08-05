@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.product-container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.product-image img {
+    max-width: 400px;
+    height: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.product-details {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-details h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.product-details .price {
+    font-size: 1.8em;
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.product-details .description {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.product-details .buy-now {
+    font-size: 1.2em;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #054f99;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.product-details .buy-now:hover {
+    background-color: #0ba40e;
+    transform: translateY(-3px);
+}
+
+.product-details .buy-now:active {
+    background-color: #1a7fd6;
+    transform: translateY(0);
+}
