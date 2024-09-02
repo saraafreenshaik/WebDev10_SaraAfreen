@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping Cart</h1>
+
+
+    <!-- Add New Product -->
+    <div class="add-product">
+        <h2>Add a New Product</h2>
+        <input type="text" id="newProductName" placeholder="Product Name">
+        <input type="number" id="newProductPrice" placeholder="Product Price">
+        <button onclick="addNewProduct()">Add Product</button>
+      </div>
+    <!-- Product List -->
+    <div class="product-list">
+      <h2>Products</h2>
+      <div id="products"></div>
+    </div>
+
+    
+
+    <!-- Shopping Cart -->
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <p>Total: $<span id="totalAmount">0.00</span></p>
+      <button onclick="clearCart()">Clear Cart</button>
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>

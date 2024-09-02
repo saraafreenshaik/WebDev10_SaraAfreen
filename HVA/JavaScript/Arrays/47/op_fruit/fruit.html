@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Operations</title>
+  <link rel="stylesheet" href="fruit.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fruit Operations</h1>
+
+    <!-- Add Fruit Section -->
+    <div class="section">
+      <h2>Add Fruit</h2>
+      <input type="text" id="fruitInput" placeholder="Enter fruit name" />
+      <button onclick="addFruit()">Add Fruit</button>
+    </div>
+
+    <!-- Remove Fruit Section -->
+    <div class="section">
+      <h2>Remove Fruit</h2>
+      <input type="text" id="removeFruitInput" placeholder="Enter fruit name to remove" />
+      <button onclick="removeFruit()">Remove Fruit</button>
+    </div>
+   
+  <div class="section">
+    <h2>Uppercase and Titlecase Operations</h2>
+    <button onclick="uppercaseFruits()">Uppercase All Fruits</button>
+    <button onclick="titlecaseFruits()">Titlecase All Fruits</button>
+  </div>
+
+  <!-- Display Fruit Count -->
+  <!-- <div class="section">
+    <h2>Fruit Count</h2>
+    <p>Total Fruits: <span id="fruitCount" > </span></p>
+  </div> -->
+  <!-- Sort Fruits Section -->
+<div class="section">
+    <h2>Sort Fruits</h2>
+    <button onclick="sortFruitsAsc()">Sort A-Z</button>
+    <button onclick="sortFruitsDesc()">Sort Z-A</button>
+  </div>
+  
+ <!-- Pop Fruit Section -->
+ <div class="section">
+    <h2>Pop Last Fruit</h2>
+    <button onclick="popFruit()">Pop Last Fruit</button>
+  </div>
+    <!-- Display Fruits -->
+    <div class="section">
+      <h2>Fruits List</h2>
+      <ul id="fruitList"></ul>
+    </div>
+  </div>
+  
+  
+
+  <script src="fruit.js"></script>
+</body>
+</html>

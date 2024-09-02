@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Average Age Calculator</title>
+  <link rel="stylesheet" href="age.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Average Age Calculator</h1>
+
+    <!-- Add Age Section -->
+    <div class="section">
+      <h2>Add Age</h2>
+      <input type="number" id="ageInput" placeholder="Enter age" />
+      <button onclick="addAge()">Add Age</button>
+    </div>
+
+   
+  
+
+    <!-- Display Ages Section -->
+    <div class="section">
+      <h2>Ages List</h2>
+      <ul id="ageList"></ul>
+    </div>
+
+     <!-- Remove Age Section -->
+<div class="section">
+    <h2>Remove Age</h2>
+    <input type="number" id="removeAgeInput" placeholder="Enter age to remove" />
+    <button onclick="removeAge()">Remove Age</button>
+  </div>
+    <!-- Display Average Age -->
+    <div class="section">
+      <h2>Average Age</h2>
+      <p>Average Age: <span id="averageAge">0</span></p>
+    </div>
+  </div>
+
+
+  <script src="age.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* Reset some default styles */
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4dffe;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  /* Product List, Cart, and Add Product Styles */
+  .product-list, .cart, .add-product {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .product-list:hover, .cart:hover, .add-product:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  /* h1 styling */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #555;
+    margin-top: 20px; /* Adjust the top margin to control spacing */
+  }
+  
+ 
+  
+  
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Product and Cart Item Styling */
+  .product, li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .product:last-child, li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #af5fd4;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:#5e2878;
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Input Fields */
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #f4dffe;
+  }
+  
+  /* Total Amount */
+  p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: right;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Remove Button in Cart */
+  li button {
+    background-color: #dc9090;
+    margin-left: 20px;
+  }
+  
+  li button:hover {
+    background-color: #d35454;
+  }
+  
+  /* Spacing for items */
+  .product-list, .cart, .add-product {
+    margin-bottom: 30px;
+  }
+  
+  
